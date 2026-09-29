@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-WORKDIR /HW3-Assigned
+WORKDIR dsai692-hw3-fastapi/fastapi
 
 COPY * ./
 
