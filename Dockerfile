@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
-CMD fastapi run fastapi/extract_save_data.py --server.address 0.0.0.0
+CMD fastapi run extract_save_data.py --host 0.0.0.0
